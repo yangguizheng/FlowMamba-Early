@@ -1,0 +1,6 @@
+outputs/
+data/*
+!data/SHA256SUMS
+__pycache__/
+*.pyc
+.pytest_cache/
