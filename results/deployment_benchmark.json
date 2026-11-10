@@ -1,0 +1,74 @@
+{
+  "dataset": "cstnet-tls1.3",
+  "checkpoint_seed": 20260921,
+  "dtype": "bf16",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "input": "real test flows with 5 packets, fixed random sample",
+  "bs1": {
+    "naive_exit_ms": {
+      "1": 1.8920671100204345,
+      "2": 1.895619010028895,
+      "3": 1.8870261749543715,
+      "5": 1.8860139801108744
+    },
+    "incremental_packet_update_ms": {
+      "1": 1.9773460499709472,
+      "2": 1.9826148349966388,
+      "3": 2.0107633150473703,
+      "4": 1.9346833549207076,
+      "5": 1.9825278250209522
+    },
+    "cumulative_all_exits_ms": {
+      "naive_recompute": 7.56036609003786,
+      "shared_incremental": 9.98500995512586,
+      "specialists_incremental": 21.571251489949645,
+      "specialists_recompute": 7.587633219955023
+    },
+    "flows_per_s_all_exits": {
+      "naive_recompute": 132.26872721384214,
+      "shared_incremental": 100.15012548752085,
+      "specialists_incremental": 46.35799645031788,
+      "specialists_recompute": 131.793402634442
+    }
+  },
+  "bs128": {
+    "naive_exit_ms": {
+      "1": 6.244383899320383,
+      "2": 18.67937585047912,
+      "3": 28.085712299798615,
+      "5": 45.953487399674486
+    },
+    "incremental_packet_update_ms": {
+      "1": 6.163228949299082,
+      "2": 6.199691799702123,
+      "3": 6.197861599503085,
+      "4": 6.1813596010324545,
+      "5": 6.1912834498798475
+    },
+    "cumulative_all_exits_ms": {
+      "naive_recompute": 98.80679185007466,
+      "shared_incremental": 30.919847499171738,
+      "specialists_incremental": 67.97262555046473,
+      "specialists_recompute": 98.85632965015247
+    },
+    "flows_per_s_all_exits": {
+      "naive_recompute": 1295.4575045227855,
+      "shared_incremental": 4139.7358121972875,
+      "specialists_incremental": 1883.1110165807752,
+      "specialists_recompute": 1294.808339061196
+    }
+  },
+  "state": {
+    "bytes_per_flow": 144128,
+    "conv_state_dtype": "torch.bfloat16",
+    "ssm_state_dtype": "torch.float32",
+    "gb_per_10k_concurrent_flows": 1.44128,
+    "recompute_raw_byte_buffer_per_flow": 1600
+  },
+  "params": {
+    "flowmamba_early": 1908960,
+    "flowmamba_single_n_x4": 7265760,
+    "netmamba_n_x4": 7370208,
+    "mambanetburst_n_x4": 7003616
+  }
+}

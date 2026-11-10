@@ -1,0 +1,551 @@
+{
+  "iscxvpn": {
+    "test_flows": 1018,
+    "layout": {
+      "header_padding_nonzero": 708,
+      "header_padding_zero": 1564,
+      "payload_padding_zero": 1925,
+      "tcp_payload_starts_with_tls_record": 212,
+      "tcp_payload_other_start": 228,
+      "ip_or_transport_not_parsed": 8
+    },
+    "first_packet_protocol": {
+      "17": 706,
+      "6": 249,
+      "ipv6-17": 60,
+      "1": 3
+    },
+    "first_packet_tcp_flags": {
+      "0x02": 104,
+      "0x12": 94,
+      "0x10": 40,
+      "0x11": 5,
+      "0x18": 6
+    },
+    "first_packet_payload_length": {
+      ">=240": 97,
+      "0": 242,
+      "100-239": 147,
+      "1-99": 529,
+      "unknown": 3
+    },
+    "first_packet_tls": {
+      "no_tls_record": 1014,
+      "tls_record_other": 4
+    },
+    "hello_positions": {
+      "client_hello@packet3": 49,
+      "server_hello@packet3": 46,
+      "server_hello@packet2": 7,
+      "server_hello@packet5": 3,
+      "client_hello@packet5": 1,
+      "client_hello@packet4": 1
+    },
+    "direction": {
+      "unknown": 912,
+      "client": 50,
+      "server": 56
+    },
+    "first_sni_packet": {
+      "0": 977,
+      "3": 41
+    },
+    "sni_by_exit": {
+      "1": {
+        "eligible_flows": 1018,
+        "share_with_sni_in_first_n": 0.0,
+        "client_flows": 50,
+        "client_share_with_sni": 0.0,
+        "server_flows": 56,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 912,
+        "unknown_share_with_sni": 0.0
+      },
+      "2": {
+        "eligible_flows": 430,
+        "share_with_sni_in_first_n": 0.0,
+        "client_flows": 50,
+        "client_share_with_sni": 0.0,
+        "server_flows": 56,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 324,
+        "unknown_share_with_sni": 0.0
+      },
+      "3": {
+        "eligible_flows": 299,
+        "share_with_sni_in_first_n": 0.13712374581939799,
+        "client_flows": 50,
+        "client_share_with_sni": 0.82,
+        "server_flows": 56,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 193,
+        "unknown_share_with_sni": 0.0
+      },
+      "5": {
+        "eligible_flows": 255,
+        "share_with_sni_in_first_n": 0.1607843137254902,
+        "client_flows": 50,
+        "client_share_with_sni": 0.82,
+        "server_flows": 56,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 149,
+        "unknown_share_with_sni": 0.0
+      }
+    },
+    "host_vs_label": {
+      "label_not_in_host": 41
+    },
+    "mask_sni_residual": {
+      "host_removed": 41
+    },
+    "examples": []
+  },
+  "ciciot2022": {
+    "test_flows": 1041,
+    "layout": {
+      "header_padding_zero": 2043,
+      "payload_padding_zero": 2305,
+      "tcp_payload_other_start": 285,
+      "header_padding_nonzero": 684,
+      "payload_padding_nonzero": 12,
+      "tcp_payload_starts_with_tls_record": 284,
+      "ip_or_transport_not_parsed": 87
+    },
+    "first_packet_protocol": {
+      "6": 647,
+      "17": 363,
+      "ipv6-0": 6,
+      "ipv6-58": 7,
+      "ipv6-17": 2,
+      "1": 11,
+      "2": 5
+    },
+    "first_packet_tcp_flags": {
+      "0xc2": 42,
+      "0x02": 268,
+      "0x14": 154,
+      "0x12": 168,
+      "0x10": 1,
+      "0x52": 10,
+      "0x18": 2,
+      "0x11": 2
+    },
+    "first_packet_payload_length": {
+      "0": 644,
+      "1-99": 265,
+      ">=240": 45,
+      "100-239": 58,
+      "unknown": 29
+    },
+    "first_packet_tls": {
+      "no_tls_record": 1039,
+      "tls_record_other": 2
+    },
+    "hello_positions": {
+      "server_hello@packet4": 33,
+      "client_hello@packet3": 97,
+      "client_hello@packet2": 3,
+      "client_hello@packet4": 6,
+      "server_hello@packet3": 56,
+      "server_hello@packet5": 1,
+      "server_hello@packet2": 1
+    },
+    "direction": {
+      "unknown": 844,
+      "server": 91,
+      "client": 106
+    },
+    "first_sni_packet": {
+      "0": 957,
+      "3": 75,
+      "2": 3,
+      "4": 6
+    },
+    "sni_by_exit": {
+      "1": {
+        "eligible_flows": 1041,
+        "share_with_sni_in_first_n": 0.0,
+        "client_flows": 106,
+        "client_share_with_sni": 0.0,
+        "server_flows": 91,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 844,
+        "unknown_share_with_sni": 0.0
+      },
+      "2": {
+        "eligible_flows": 573,
+        "share_with_sni_in_first_n": 0.005235602094240838,
+        "client_flows": 106,
+        "client_share_with_sni": 0.02830188679245283,
+        "server_flows": 91,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 376,
+        "unknown_share_with_sni": 0.0
+      },
+      "3": {
+        "eligible_flows": 419,
+        "share_with_sni_in_first_n": 0.18615751789976134,
+        "client_flows": 106,
+        "client_share_with_sni": 0.7358490566037735,
+        "server_flows": 91,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 222,
+        "unknown_share_with_sni": 0.0
+      },
+      "5": {
+        "eligible_flows": 370,
+        "share_with_sni_in_first_n": 0.22702702702702704,
+        "client_flows": 106,
+        "client_share_with_sni": 0.7924528301886793,
+        "server_flows": 91,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 173,
+        "unknown_share_with_sni": 0.0
+      }
+    },
+    "host_vs_label": {
+      "label_not_in_host": 82
+    },
+    "mask_sni_residual": {
+      "host_removed": 82
+    },
+    "examples": []
+  },
+  "ustctfc2016": {
+    "test_flows": 4000,
+    "layout": {
+      "header_padding_zero": 6768,
+      "payload_padding_nonzero": 682,
+      "header_padding_nonzero": 3541,
+      "payload_padding_zero": 7430,
+      "tcp_payload_other_start": 2272,
+      "tcp_payload_starts_with_tls_record": 465,
+      "ip_or_transport_not_parsed": 9
+    },
+    "first_packet_protocol": {
+      "17": 994,
+      "6": 3001,
+      "ipv6-17": 1,
+      "1": 4
+    },
+    "first_packet_tcp_flags": {
+      "0x10": 888,
+      "0x12": 431,
+      "0x18": 543,
+      "0x11": 77,
+      "0x02": 937,
+      "0x14": 125
+    },
+    "first_packet_payload_length": {
+      ">=240": 788,
+      "100-239": 155,
+      "0": 2252,
+      "1-99": 801,
+      "unknown": 4
+    },
+    "first_packet_tls": {
+      "no_tls_record": 3597,
+      "tls_record_other": 283,
+      "server_hello": 100,
+      "handshake_other": 20
+    },
+    "hello_positions": {
+      "client_hello@packet3": 14,
+      "client_hello@packet5": 12,
+      "server_hello@packet3": 12,
+      "server_hello@packet5": 4,
+      "server_hello@packet1": 100,
+      "server_hello@packet2": 1
+    },
+    "direction": {
+      "unknown": 3857,
+      "client": 26,
+      "server": 117
+    },
+    "first_sni_packet": {
+      "0": 3979,
+      "3": 9,
+      "5": 12
+    },
+    "sni_by_exit": {
+      "1": {
+        "eligible_flows": 4000,
+        "share_with_sni_in_first_n": 0.0,
+        "client_flows": 26,
+        "client_share_with_sni": 0.0,
+        "server_flows": 117,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 3857,
+        "unknown_share_with_sni": 0.0
+      },
+      "2": {
+        "eligible_flows": 2178,
+        "share_with_sni_in_first_n": 0.0,
+        "client_flows": 26,
+        "client_share_with_sni": 0.0,
+        "server_flows": 17,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 2135,
+        "unknown_share_with_sni": 0.0
+      },
+      "3": {
+        "eligible_flows": 1755,
+        "share_with_sni_in_first_n": 0.005128205128205128,
+        "client_flows": 26,
+        "client_share_with_sni": 0.34615384615384615,
+        "server_flows": 17,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 1712,
+        "unknown_share_with_sni": 0.0
+      },
+      "5": {
+        "eligible_flows": 1121,
+        "share_with_sni_in_first_n": 0.01873327386262266,
+        "client_flows": 26,
+        "client_share_with_sni": 0.8076923076923077,
+        "server_flows": 15,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 1080,
+        "unknown_share_with_sni": 0.0
+      }
+    },
+    "host_vs_label": {
+      "label_not_in_host": 21
+    },
+    "mask_sni_residual": {
+      "host_removed": 9,
+      "host_still_present_after_mask_sni": 12
+    },
+    "examples": []
+  },
+  "cipherspectrum": {
+    "test_flows": 8200,
+    "layout": {
+      "header_padding_zero": 40993,
+      "payload_padding_zero": 26412,
+      "tcp_payload_starts_with_tls_record": 8325,
+      "tcp_payload_other_start": 6923,
+      "header_padding_nonzero": 1
+    },
+    "first_packet_protocol": {
+      "6": 8200
+    },
+    "first_packet_tcp_flags": {
+      "0x12": 4089,
+      "0x02": 4110,
+      "0x10": 1
+    },
+    "first_packet_payload_length": {
+      "0": 8200
+    },
+    "first_packet_tls": {
+      "no_tls_record": 8200
+    },
+    "hello_positions": {
+      "server_hello@packet4": 2100,
+      "server_hello@packet3": 1962,
+      "client_hello@packet3": 4109,
+      "server_hello@packet5": 27,
+      "client_hello@packet4": 1,
+      "client_hello@packet2": 1
+    },
+    "direction": {
+      "server": 4089,
+      "client": 4111
+    },
+    "first_sni_packet": {
+      "0": 5493,
+      "3": 2705,
+      "4": 1,
+      "2": 1
+    },
+    "sni_by_exit": {
+      "1": {
+        "eligible_flows": 8200,
+        "share_with_sni_in_first_n": 0.0,
+        "client_flows": 4111,
+        "client_share_with_sni": 0.0,
+        "server_flows": 4089,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 0,
+        "unknown_share_with_sni": null
+      },
+      "2": {
+        "eligible_flows": 8200,
+        "share_with_sni_in_first_n": 0.00012195121951219512,
+        "client_flows": 4111,
+        "client_share_with_sni": 0.00024324981756263683,
+        "server_flows": 4089,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 0,
+        "unknown_share_with_sni": null
+      },
+      "3": {
+        "eligible_flows": 8200,
+        "share_with_sni_in_first_n": 0.33,
+        "client_flows": 4111,
+        "client_share_with_sni": 0.6582340063244952,
+        "server_flows": 4089,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 0,
+        "unknown_share_with_sni": null
+      },
+      "5": {
+        "eligible_flows": 8194,
+        "share_with_sni_in_first_n": 0.33036368074200634,
+        "client_flows": 4111,
+        "client_share_with_sni": 0.6584772561420579,
+        "server_flows": 4083,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 0,
+        "unknown_share_with_sni": null
+      }
+    },
+    "host_vs_label": {
+      "label_in_host": 2687
+    },
+    "mask_sni_residual": {
+      "host_removed": 2687
+    },
+    "examples": []
+  },
+  "cstnet-tls1.3": {
+    "test_flows": 9374,
+    "layout": {
+      "header_padding_zero": 41170,
+      "payload_padding_zero": 26213,
+      "tcp_payload_starts_with_tls_record": 19262,
+      "tcp_payload_other_start": 11143,
+      "header_padding_nonzero": 5634,
+      "payload_padding_nonzero": 17
+    },
+    "first_packet_protocol": {
+      "6": 9374
+    },
+    "first_packet_tcp_flags": {
+      "0x10": 7260,
+      "0x18": 2109,
+      "0x14": 1,
+      "0x04": 3,
+      "0x11": 1
+    },
+    "first_packet_payload_length": {
+      "0": 4026,
+      "100-239": 323,
+      ">=240": 4347,
+      "1-99": 678
+    },
+    "first_packet_tls": {
+      "no_tls_record": 4030,
+      "server_hello": 4732,
+      "tls_record_other": 576,
+      "client_hello": 36
+    },
+    "hello_positions": {
+      "server_hello@packet1": 4732,
+      "client_hello@packet1": 36,
+      "client_hello@packet2": 2,
+      "server_hello@packet2": 101,
+      "server_hello@packet3": 122,
+      "server_hello@packet4": 19,
+      "server_hello@packet5": 23,
+      "client_hello@packet3": 3,
+      "client_hello@packet4": 4
+    },
+    "direction": {
+      "unknown": 4601,
+      "server": 4732,
+      "client": 41
+    },
+    "first_sni_packet": {
+      "0": 9333,
+      "1": 36,
+      "3": 2,
+      "4": 2,
+      "2": 1
+    },
+    "sni_by_exit": {
+      "1": {
+        "eligible_flows": 9374,
+        "share_with_sni_in_first_n": 0.0038404096436953274,
+        "client_flows": 41,
+        "client_share_with_sni": 0.8780487804878049,
+        "server_flows": 4732,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 4601,
+        "unknown_share_with_sni": 0.0
+      },
+      "2": {
+        "eligible_flows": 9374,
+        "share_with_sni_in_first_n": 0.003947087689353531,
+        "client_flows": 41,
+        "client_share_with_sni": 0.9024390243902439,
+        "server_flows": 4732,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 4601,
+        "unknown_share_with_sni": 0.0
+      },
+      "3": {
+        "eligible_flows": 9373,
+        "share_with_sni_in_first_n": 0.004160887656033287,
+        "client_flows": 41,
+        "client_share_with_sni": 0.9512195121951219,
+        "server_flows": 4732,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 4600,
+        "unknown_share_with_sni": 0.0
+      },
+      "5": {
+        "eligible_flows": 9311,
+        "share_with_sni_in_first_n": 0.00429599398560842,
+        "client_flows": 40,
+        "client_share_with_sni": 1.0,
+        "server_flows": 4724,
+        "server_share_with_sni": 0.0,
+        "unknown_flows": 4547,
+        "unknown_share_with_sni": 0.0
+      }
+    },
+    "host_vs_label": {
+      "label_in_host": 41
+    },
+    "mask_sni_residual": {
+      "host_removed": 40,
+      "host_still_present_after_mask_sni": 1
+    },
+    "examples": [
+      {
+        "flow": 220,
+        "label": "jb51.net",
+        "host": "files.jb51.net",
+        "header_hex": "45 00 02 2d 89 9c 40 00 3f 06 21 d1 00 00 00 00 00 00 00 00 00 00 00 00 4e 50 8f 0d 66 a4 dc 70 50 18 02 01 4a 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+        "sni_before_hex": "00 00 00 13 00 11 00 00 0e 66 69 6c 65 73 2e 6a 62 35 31 2e 6e 65 74 00 17 00 00 ff 01 00 01 00 00 0a 00 0a 00 08 7a 7a",
+        "sni_after_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 17 00 00 ff 01 00 01 00 00 0a 00 0a 00 08 7a 7a"
+      },
+      {
+        "flow": 1204,
+        "label": "eastmoney.com",
+        "host": "emdctrade.eastmoney.com",
+        "header_hex": "45 00 02 2d 00 00 40 00 3f 06 62 ac 00 00 00 00 00 00 00 00 00 00 00 00 7b ab c7 53 5a 1e 73 83 50 18 ff ff 7d 78 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+        "sni_before_hex": "00 00 00 1c 00 1a 00 00 17 65 6d 64 63 74 72 61 64 65 2e 65 61 73 74 6d 6f 6e 65 79 2e 63 6f 6d 00 17 00 00 ff 01 00 01",
+        "sni_after_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 17 00 00 ff 01 00 01"
+      },
+      {
+        "flow": 1216,
+        "label": "eastmoney.com",
+        "host": "emdctrade.eastmoney.com",
+        "header_hex": "45 00 02 39 00 00 40 00 3e 06 ed c7 00 00 00 00 00 00 00 00 00 00 00 00 8d f1 1c 90 02 72 a7 79 80 18 08 07 4d 64 00 00 01 01 08 0a 18 df 14 4d 9f 68 5e 2c 00 00 00 00 00 00 00 00",
+        "sni_before_hex": "00 00 00 1c 00 1a 00 00 17 65 6d 64 63 74 72 61 64 65 2e 65 61 73 74 6d 6f 6e 65 79 2e 63 6f 6d 00 17 00 00 ff 01 00 01",
+        "sni_after_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 17 00 00 ff 01 00 01"
+      },
+      {
+        "flow": 1225,
+        "label": "eastmoney.com",
+        "host": "emdcadvertise.eastmoney.com",
+        "header_hex": "45 00 02 39 00 00 40 00 3f 06 29 c8 00 00 00 00 00 00 00 00 00 00 00 00 f5 24 a4 5b bd db 51 04 80 18 08 07 bf ad 00 00 01 01 08 0a 1b d6 41 61 9d 0f 64 36 00 00 00 00 00 00 00 00",
+        "sni_before_hex": "00 00 00 20 00 1e 00 00 1b 65 6d 64 63 61 64 76 65 72 74 69 73 65 2e 65 61 73 74 6d 6f 6e 65 79 2e 63 6f 6d 00 17 00 00",
+        "sni_after_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 17 00 00"
+      }
+    ]
+  }
+}

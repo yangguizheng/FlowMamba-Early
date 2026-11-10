@@ -1,0 +1,31 @@
+model,dataset,exit,selected_epoch,tied_epochs_at_4_decimals,val_mean_f1,val_macro_f1,test_macro_f1
+"FlowMamba-Early, as selected",USTC-TFC2016,1,17,1,0.9138,0.8893,0.8800572559670293
+"FlowMamba-Early, as selected",USTC-TFC2016,2,17,1,0.9138,0.8762,0.8671350580548504
+"FlowMamba-Early, as selected",USTC-TFC2016,3,17,1,0.9138,0.949,0.9470134140642704
+"FlowMamba-Early, as selected",USTC-TFC2016,5,17,1,0.9138,0.9406,0.9293075137202146
+"FlowMamba-Early, as selected",CipherSpectrum,3,7,1,0.3763,0.6596,0.6600155776129082
+"FlowMamba-Early, as selected",CipherSpectrum,5,7,1,0.3763,0.8353,0.8339474833847698
+Exit-specific projections,USTC-TFC2016,1,9,1,0.9115,0.8894,0.8863728111034399
+Exit-specific projections,USTC-TFC2016,2,9,1,0.9115,0.8584,0.852173928359307
+Exit-specific projections,USTC-TFC2016,3,9,1,0.9115,0.9532,0.9492331057994924
+Exit-specific projections,USTC-TFC2016,5,9,1,0.9115,0.9448,0.9415071344810728
+Exit-specific projections,CipherSpectrum,3,20,1,0.3685,0.6186,0.6252368100528825
+Exit-specific projections,CipherSpectrum,5,20,1,0.3685,0.8227,0.8235658010335896
+Learned exit weights,USTC-TFC2016,1,15,1,0.9164,0.8884,0.8880862973111844
+Learned exit weights,USTC-TFC2016,2,15,1,0.9164,0.871,0.8732976770318899
+Learned exit weights,USTC-TFC2016,3,15,1,0.9164,0.9536,0.9529776312134052
+Learned exit weights,USTC-TFC2016,5,15,1,0.9164,0.9525,0.9393388879785516
+Learned exit weights,CipherSpectrum,3,16,1,0.3565,0.6016,0.5971518855648023
+Learned exit weights,CipherSpectrum,5,16,1,0.3565,0.8096,0.8123412699334174
+Both changes,USTC-TFC2016,1,11,1,0.916,0.892,0.8870219475346781
+Both changes,USTC-TFC2016,2,11,1,0.916,0.8724,0.8624022854204577
+Both changes,USTC-TFC2016,3,11,1,0.916,0.957,0.943575286776888
+Both changes,USTC-TFC2016,5,11,1,0.916,0.9426,0.9263501871478746
+Both changes,CipherSpectrum,3,17,1,0.3827,0.6634,0.6557411128795199
+Both changes,CipherSpectrum,5,17,1,0.3827,0.8286,0.8287841433449264
+Two shared and two exit-specific layers,USTC-TFC2016,1,5,1,0.9056,0.8857,0.8853383812661674
+Two shared and two exit-specific layers,USTC-TFC2016,2,5,1,0.9056,0.8662,0.8609973080492435
+Two shared and two exit-specific layers,USTC-TFC2016,3,5,1,0.9056,0.9398,0.9380628159475196
+Two shared and two exit-specific layers,USTC-TFC2016,5,5,1,0.9056,0.9305,0.849527198528543
+Two shared and two exit-specific layers,CipherSpectrum,3,6,1,0.3848,0.6795,0.6779739879134369
+Two shared and two exit-specific layers,CipherSpectrum,5,6,1,0.3848,0.8535,0.8449455738121349

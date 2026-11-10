@@ -1,0 +1,42 @@
+{
+  "iscxvpn": {
+    "test_flows": 1018,
+    "test_flows_from_training_capture": 1018,
+    "test_flows_with_parsed_endpoints": 955,
+    "test_flows_whose_connection_is_in_training": 445,
+    "classes": 7,
+    "classes_with_single_capture_file": 1
+  },
+  "ciciot2022": {
+    "test_flows": 1041,
+    "test_flows_from_training_capture": 1039,
+    "test_flows_with_parsed_endpoints": 1008,
+    "test_flows_whose_connection_is_in_training": 384,
+    "classes": 6,
+    "classes_with_single_capture_file": 0
+  },
+  "ustctfc2016": {
+    "test_flows": 4000,
+    "test_flows_from_training_capture": 4000,
+    "test_flows_with_parsed_endpoints": 3995,
+    "test_flows_whose_connection_is_in_training": 253,
+    "classes": 20,
+    "classes_with_single_capture_file": 18
+  },
+  "cipherspectrum": {
+    "test_flows": 8200,
+    "test_flows_from_training_capture": 7561,
+    "test_flows_with_parsed_endpoints": 8200,
+    "test_flows_whose_connection_is_in_training": 6592,
+    "classes": 41,
+    "classes_with_single_capture_file": 0
+  },
+  "cstnet-tls1.3": {
+    "test_flows": 9374,
+    "test_flows_from_training_capture": 7594,
+    "test_flows_with_parsed_endpoints": 9374,
+    "test_flows_whose_connection_is_in_training": 7594,
+    "classes": 120,
+    "classes_with_single_capture_file": 0
+  }
+}

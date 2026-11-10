@@ -1,0 +1,176 @@
+{
+  "20260921": {
+    "1": {
+      "n": 9374,
+      "macro_f1": {
+        "fp32_full": 0.6476212691569141,
+        "fp32_incremental": 0.6476212691569141,
+        "bf16_full": 0.6477727443848846,
+        "bf16_incremental": 0.6477727443848846
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 0,
+        "bf16_full_vs_bf16_incremental": 0,
+        "fp32_incremental_vs_bf16_incremental": 54
+      }
+    },
+    "2": {
+      "n": 9374,
+      "macro_f1": {
+        "fp32_full": 0.6765287572317297,
+        "fp32_incremental": 0.6764976138545135,
+        "bf16_full": 0.6763000025416133,
+        "bf16_incremental": 0.6768478712861096
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 3,
+        "bf16_full_vs_bf16_incremental": 24,
+        "fp32_incremental_vs_bf16_incremental": 53
+      }
+    },
+    "3": {
+      "n": 9373,
+      "macro_f1": {
+        "fp32_full": 0.7077523921227437,
+        "fp32_incremental": 0.7077523921227437,
+        "bf16_full": 0.7077850598855681,
+        "bf16_incremental": 0.7075728978576671
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 0,
+        "bf16_full_vs_bf16_incremental": 26,
+        "fp32_incremental_vs_bf16_incremental": 37
+      }
+    },
+    "5": {
+      "n": 9311,
+      "macro_f1": {
+        "fp32_full": 0.754285894442324,
+        "fp32_incremental": 0.7541736696779492,
+        "bf16_full": 0.7531691924702071,
+        "bf16_incremental": 0.7525797734197278
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 1,
+        "bf16_full_vs_bf16_incremental": 28,
+        "fp32_incremental_vs_bf16_incremental": 38
+      }
+    }
+  },
+  "20260922": {
+    "1": {
+      "n": 9374,
+      "macro_f1": {
+        "fp32_full": 0.6422630401309808,
+        "fp32_incremental": 0.6422630401309808,
+        "bf16_full": 0.6418114129135778,
+        "bf16_incremental": 0.6418114129135778
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 0,
+        "bf16_full_vs_bf16_incremental": 0,
+        "fp32_incremental_vs_bf16_incremental": 47
+      }
+    },
+    "2": {
+      "n": 9374,
+      "macro_f1": {
+        "fp32_full": 0.6760596598547675,
+        "fp32_incremental": 0.6761395575049448,
+        "bf16_full": 0.675923166739648,
+        "bf16_incremental": 0.6760875376081539
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 2,
+        "bf16_full_vs_bf16_incremental": 27,
+        "fp32_incremental_vs_bf16_incremental": 41
+      }
+    },
+    "3": {
+      "n": 9373,
+      "macro_f1": {
+        "fp32_full": 0.7020831089066905,
+        "fp32_incremental": 0.7020578801299674,
+        "bf16_full": 0.7025992025491371,
+        "bf16_incremental": 0.7027048733683539
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 1,
+        "bf16_full_vs_bf16_incremental": 22,
+        "fp32_incremental_vs_bf16_incremental": 37
+      }
+    },
+    "5": {
+      "n": 9311,
+      "macro_f1": {
+        "fp32_full": 0.7456899733543509,
+        "fp32_incremental": 0.7456899733543509,
+        "bf16_full": 0.7451210574399649,
+        "bf16_incremental": 0.7481749430986362
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 0,
+        "bf16_full_vs_bf16_incremental": 18,
+        "fp32_incremental_vs_bf16_incremental": 32
+      }
+    }
+  },
+  "20260923": {
+    "1": {
+      "n": 9374,
+      "macro_f1": {
+        "fp32_full": 0.6534902990119388,
+        "fp32_incremental": 0.6534902990119388,
+        "bf16_full": 0.6536153011960831,
+        "bf16_incremental": 0.6536153011960831
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 0,
+        "bf16_full_vs_bf16_incremental": 0,
+        "fp32_incremental_vs_bf16_incremental": 40
+      }
+    },
+    "2": {
+      "n": 9374,
+      "macro_f1": {
+        "fp32_full": 0.6819492876530276,
+        "fp32_incremental": 0.6818284284505178,
+        "bf16_full": 0.682230017711467,
+        "bf16_incremental": 0.6824077573041968
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 1,
+        "bf16_full_vs_bf16_incremental": 28,
+        "fp32_incremental_vs_bf16_incremental": 39
+      }
+    },
+    "3": {
+      "n": 9373,
+      "macro_f1": {
+        "fp32_full": 0.7148336908978808,
+        "fp32_incremental": 0.714932751652356,
+        "bf16_full": 0.7146732982549178,
+        "bf16_incremental": 0.7153258132363736
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 1,
+        "bf16_full_vs_bf16_incremental": 17,
+        "fp32_incremental_vs_bf16_incremental": 40
+      }
+    },
+    "5": {
+      "n": 9311,
+      "macro_f1": {
+        "fp32_full": 0.7594209087238274,
+        "fp32_incremental": 0.7594209087238274,
+        "bf16_full": 0.7585502134652196,
+        "bf16_incremental": 0.7588660040413303
+      },
+      "n_disagree": {
+        "fp32_full_vs_fp32_incremental": 0,
+        "bf16_full_vs_bf16_incremental": 26,
+        "fp32_incremental_vs_bf16_incremental": 40
+      }
+    }
+  }
+}

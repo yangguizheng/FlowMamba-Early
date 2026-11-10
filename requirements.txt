@@ -1,0 +1,16 @@
+# Versions used for the experiments (Python 3.11, CUDA 12.6, NVIDIA GeForce RTX 4090).
+# mamba-ssm and causal-conv1d build CUDA kernels; see their installation notes if no wheel matches your setup.
+torch==2.7.1
+mamba-ssm==2.2.4
+causal-conv1d==1.5.0.post8
+triton==3.3.1
+einops==0.8.2
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+scikit-learn==1.9.0
+xgboost==3.2.0
+pyarrow==25.0.0
+matplotlib==3.11.1
+pillow==12.2.0
+pytest
